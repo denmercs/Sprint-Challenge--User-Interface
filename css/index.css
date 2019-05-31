@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +143,126 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/** code starts here **/
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+    nav {
+        margin-top: 1rem;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: #000;
+        margin: 0 2rem;
+
+    }
+
+.logo {
+    background-image: url('../img/lambda-black.png');
+    width: 157px;
+    height: 40px;
+}
+
+.jumbo-img {
+    background-image: url('../img/jumbo.jpg');
+    height: 153px;
+    width: 800px;
+    margin-bottom: 2rem
+}
+
+.box-1 {
+    background-color: teal;
+}
+
+.box-2 {
+    background-color: gold;
+}
+
+.box-3 {
+    background-color: cadetblue;
+}
+
+.box-4 {
+    background-color: coral;
+}
+
+.box-5 {
+    background-color: crimson;
+}
+.box-6 {
+    background-color: forestgreen;
+}
+.box-7 {
+    background-color: darkorchid;
+}
+.box-8 {
+    background-color: hotpink;
+}
+.box-9 {
+    background-color: indigo;
+}
+.box-10 {
+    background-color: dodgerblue;
+}
+
+/** about page **/
+.jumbo-about-img {
+    background-image: url('../img/jumbo-about.png');
+    height: 153px;
+    width: 800px;
+    margin-bottom: 2rem;
+}
+
+.about {
+    margin: 2rem 0;
+}
+
+    .about h3 {
+        font-size: 1.5rem;
+    }
+
+    .about p {
+        line-height: 1.5rem;
+    }
+
+hr {
+    border: 0;
+    border-bottom: 1.5px dashed #000;
+    background: #fff;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+
+}
+    .content h3 {
+        font-size: 1.25rem;
+    }
+
+    .content p {
+        margin-bottom: 2rem;
+    }
+.card {
+    margin: 2rem 0;    
+    width: 50%;
+}
+    .card h3 {
+        margin-top: 1rem;
+    }
+    .card p {
+        line-height: 1.5;
+    }
+    .card button {
+        font-size: 1.1rem;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin: 2rem 0;
+        padding: 1rem 3rem;
+    }
