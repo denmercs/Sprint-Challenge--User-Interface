@@ -330,3 +330,35 @@ header {
         color: white;
         transition: all ease-in .8s;
     }
+
+/** media queries **/
+@media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+        nav a{
+            display: flex;
+            justify-content: center;
+            padding: .8rem;
+        }
+    
+        nav a:hover {
+            background-color: grey;
+            color: white;
+            transition: all ease-in .8s;
+        }
+    
+    .logo {
+        background-image: url('../img/lambda-black.png');
+        width: 157px;
+        height: 40px;
+    }
+    
+    a .logo {
+        margin-left: 20%;
+    }
+
+  }
