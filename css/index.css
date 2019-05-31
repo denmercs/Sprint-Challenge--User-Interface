@@ -159,7 +159,12 @@ header {
         text-decoration: none;
         color: #000;
         margin: 0 2rem;
+    }
 
+    nav a:hover {
+        background-color: grey;
+        color: white;
+        transition: all ease-in .8s;
     }
 
 .logo {
@@ -230,7 +235,8 @@ header {
         line-height: 1.5rem;
     }
 
-hr {
+.hr {
+    margin-top: 2rem;
     border: 0;
     border-bottom: 1.5px dashed #000;
     background: #fff;
@@ -249,9 +255,14 @@ hr {
     .content p {
         margin-bottom: 2rem;
     }
+
 .card {
-    margin: 2rem 0;    
-    width: 50%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
     .card h3 {
         margin-top: 1rem;
@@ -260,9 +271,62 @@ hr {
         line-height: 1.5;
     }
     .card button {
-        font-size: 1.1rem;
+        font-size: 1rem;
         border: 2px solid black;
         border-radius: 15px;
-        margin: 2rem 0;
         padding: 1rem 3rem;
+        width: 60%;
+    }
+
+/** product page **/
+.product-intro {
+    display: flex;
+}
+
+.product-text p{
+    line-height: 2;
+}
+
+.card-pricing {
+    background-color: rgba(0, 255, 255, 0.139);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.card-pricing button {
+    margin-top: 2rem;
+    width: 100%;
+}
+    .card-pricing button:hover {
+        background-color: grey;
+        color: white;
+        transition: all ease-in .8s;
+    }
+.contact {
+    padding: 0 2rem;
+}
+
+    .contact form {
+        margin-top: 2rem;
+    }
+
+    .contact input {
+        width: 100%;
+        margin: 1.5rem 0;
+        padding: .5rem;
+        border: 2px solid grey;
+    }
+
+    .contact button {
+        font-size: 1rem;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 1rem 3rem;
+        width: 100%;
+    }
+
+    .contact button:hover {
+        background-color: grey;
+        color: white;
+        transition: all ease-in .8s;
     }
